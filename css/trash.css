@@ -117,8 +117,8 @@ nav a img{
     height: auto;
     border-radius: 10px;
     width: 150px;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
+ /* tossa drop-shadow josta en pitänykkään -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222); */
 }
 
 .dialog {
