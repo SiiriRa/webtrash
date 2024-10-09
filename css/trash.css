@@ -9,13 +9,6 @@
     src: url('../assets/fonts/CirrusCumulus.ttf ') format('truetype');
   }
 
-  .scroller {
-    width: 300px;
-    height: 100px;
-    overflow-y: scroll;
-    scrollbar-color: #007 #bada55;
-  }
-
 body {
     background: 
         /*linear-gradient(whitesmoke , transparent 10%),
@@ -42,10 +35,10 @@ header {
 
 header h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10vw;
+    font-size: 12vw;
     color: #ffffe1;
     line-height: 0.9;
-    letter-spacing:-15px;
+    letter-spacing:-1vw;
     padding-right: 15%;
     
 }
@@ -99,7 +92,7 @@ nav a img{
 }
 
 .image-div img {
-    width: 500px; 
+    width: 200px; 
     height: auto;
     border-radius: 10px;
 }
@@ -117,7 +110,7 @@ nav a img{
     min-height: 30vh;
     margin-top: 10vh;
     overflow: auto;
-    scrollbar-color: #d2d2d2 #ffffe1;
+    scrollbar-color: lavender palegreen;
     scrollbar-width: thin;
     
 }

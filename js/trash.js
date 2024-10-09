@@ -13,8 +13,8 @@ function toggleDialog(event, id) {
 function positionImageDivs() {
     const imageDivs = document.querySelectorAll('.image-div');
     imageDivs.forEach(div => {
-        const x = Math.random() * (window.innerWidth - 500); // Adjust based on width of the div
-        const y = Math.random() * (window.innerHeight - 500); // Adjust based on header/footer height
+        const x = Math.random() * (window.innerWidth - 200); // Adjust based on width of the div
+        const y = Math.random() * (window.innerHeight - 200); // Adjust based on header/footer height
         div.style.position = 'absolute';
         div.style.left = `${Math.max(0, x)}px`; // Ensure x is not negative
         div.style.top = `${Math.max(0, y)}px`; // Ensure y is not negative
