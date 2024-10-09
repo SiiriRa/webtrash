@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>webtrash</title> 
+    <link rel="stylesheet" href="./css/trash.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/mytty.png">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh; 
+            overflow: hidden;
+        }
+
+        .overlay {
+            position: fixed; /* Fix the position */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('./assets/img/paperi.png');
+            background-size: contain; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            z-index: 3;
+            
+        }
+        @media (max-width: 100px) {
+    .overlay {
+        background-size: cover; /* Change to cover on smaller screens if needed */
+    }
+}
+
+        header {
+            position: relative; 
+            z-index: 2; 
+            margin-top: 20px; 
+            color: white; 
+        }
+
+        footer {
+            z-index: 3;
+        }
+
+
+        .info{
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <h1>ABOUT WEBTRASH</h1>
+    </header>
+    <footer>
+        <nav>
+            <a href="trash.html"><img src="./assets/img/back.png" class="info"></a>
+        </nav>
+    </footer>
+</body>
+</html>

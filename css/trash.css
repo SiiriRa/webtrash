@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'CirrusCumulus';
+    src: url('../assets/fonts/CirrusCumulus.ttf ') format('truetype');
+  }
+
+  .scroller {
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: #007 #bada55;
+  }
+
+body {
+    background: 
+        /*linear-gradient(whitesmoke , transparent 10%),
+        linear-gradient( to top, whitesmoke, transparent 10%), */
+        url('../assets/img/dataroom-3.png') no-repeat center center fixed
+    ;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+    color: #ffffe1;
+    line-height: 0.9;
+    letter-spacing:-15px;
+    padding-right: 15%;
+    
+}
+ 
+footer {
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.logo {
+    width: 80%; 
+    height: auto;
+    max-width: 531.2px;
+    min-width: 450px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4800ff;
+}
+
+nav a img{
+    height: 8vw;
+
+    margin-top: 2.4%;
+    margin-right: 3%;
+    cursor: pointer;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100%;
+}
+
+
+.image-div {
+    position: relative;
+    margin: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.image-div img {
+    width: 500px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.dialog {
+    display: none;
+    background: #ffffe1;
+    border: solid 35px #ffffe1;
+    border-radius: 15px;
+    transition: right 0.3s ease-in-out;
+    max-width: 20vw;
+    min-width: 60vw;
+    z-index: 2;
+    max-height: 80vh;
+    min-height: 30vh;
+    margin-top: 10vh;
+    overflow: auto;
+    scrollbar-color: #d2d2d2 #ffffe1;
+    scrollbar-width: thin;
+    
+}
+
+.dialog img {
+    width: 100%;
+}
+
+.dialog.open {
+    display: block;
+    right: 0; /* Show dialog when open */
+}
+
+.dialog p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw; 
+    line-height: 1.4; 
+}

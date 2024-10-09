@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webtrash</title>
+    <link rel="stylesheet" href="./css/trash.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/mytty.png">
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+            <h1>ONE MAN'S TRASH IS NOW EVERYONE'S TREASURE</h1>
+        </header>
+
+        <div class="image-div" onclick="toggleDialog(event, 'bank')"> 
+             <img src="./assets/img/mytty.png">
+        </div>
+        <div class="dialog" id="bank">
+            <p><a href="https://archive.org/details/105.265-correspondence-1923.9.16-fh" target="_blank">105.265_correspondence_1923.9.16_FH</a>, By New Brunswick Free Public Library.</p>
+            <img src="./assets/img/bank.png" alt="Dialog Image" class="dialog-image"> 
+        </div>
+
+
+        <div class="image-div" onclick="toggleDialog(event, 'diary')">
+            <img src="./assets/img/mytty2.png">
+        </div>
+        <div class="dialog" id="diary">
+            <p><a href="https://archive.org/details/SPD-SLRSY-2233" target="_blank">Goddard's Diary III.</a> This is what Dr. Goddard wrote in his diary for March 16, 1926, which was the day he launched the first liquid-fueled rocket. *Image Credit*: NASA</p>
+            <img src="./assets/img/diary.png" alt="Dialog Image" class="dialog-image">
+        </div>
+
+
+        <div class="image-div" onclick="toggleDialog(event, 'kmart')">
+            <img src="./assets/img/mytty3.png">
+        </div>
+        <div class="dialog" id="kmart">
+            <p><a href="https://archive.org/details/KMartSalesReceiptForAtari800XL" target="_blank">K-Mart sales receipt</a> for an Atari 800XL 8-bit home computer from 1985.</p>
+            <img src="./assets/img/kmart.png" alt="Dialog Image" class="dialog-image">
+        </div>
+
+
+        <div class="image-div" onclick="toggleDialog(event, 'todo')">
+            <img src="./assets/img/mytty4-2.png">
+        </div>
+        <div class="dialog" id="todo">
+            <p><a href="https://archive.org/details/05Kahle000199/mode/2up" target="_blank">Wide Area Information Servers Project Documentation</a>, Scanned and uploaded in 2013.</p>
+            <img src="./assets/img/todo.png" class="dialog-image">
+        </div>
+
+
+        <div class="image-div" onclick="toggleDialog(event, 'sorry')">
+            <img src="./assets/img/mytty5.png">
+        </div>
+        <div class="dialog" id="sorry">
+            <p><a href="https://archive.org/details/scanned-document_202108" target="_blank">An apology (?) letter from Brian to Annie</a>, Scanned Document.</p>
+            <img src="./assets/img/sorry.png" class="dialog-image">
+        </div>
+
+
+        <div class="image-div" onclick="toggleDialog(event, 'postit')">
+            <img src="./assets/img/mytty6.png">
+        </div>
+        <div class="dialog" id="postit">
+            <p><a href="https://archive.org/details/MISC012" target="_blank">A Post-it note</a> from 1998.</p>
+            <img src="./assets/img/postit.png" class="dialog-image">
+        </div>
+
+
+        <div class="image-div" onclick="toggleDialog(event, 'ripped')">
+            <img src="./assets/img/mytty7.png">
+        </div>
+        <div class="dialog" id="ripped">
+            <p><a href="https://archive.org/details/fragmentsofbillr2317unse" target="_blank">Folder 2/3: Bills, receipts, promissory notes, etc.</a> Fragments of bill/receipt  (1760-1852?).</p>
+            <img src="./assets/img/ripped.png" class="dialog-image">
+        </div>
+
+        <div class="image-div" onclick="toggleDialog(event, 'ukko')">
+            <img src="./assets/img/mytty8.png">
+        </div>
+        <div class="dialog" id="ukko">
+            <p><a href="https://archive.org/details/2011-11-002" target="_blank">Library Receipt</a>, customized by Albert Cortes.</p>
+            <img src="./assets/img/ukko.png" class="dialog-image">
+        </div>
+        
+    </div>
+
+    <footer>
+        <nav>
+            <a href="info.html"><img src="./assets/img/info.png" class="info"></a>
+        </nav>
+    </footer>
+
+<script src="./js/trash.js"></script>
+</body>
+</html>
+
+
+ 
