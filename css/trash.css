@@ -92,7 +92,7 @@ nav a img{
 }
 
 .image-div img {
-    width: 200px; 
+    max-width: 20vw;
     height: auto;
     border-radius: 10px;
 }
@@ -110,7 +110,7 @@ nav a img{
     min-height: 30vh;
     margin-top: 10vh;
     overflow: auto;
-    scrollbar-color: lavender palegreen;
+    scrollbar-color: #B0C2F0 #ffffe1;
     scrollbar-width: thin;
     
 }
