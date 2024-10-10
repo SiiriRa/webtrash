@@ -59,7 +59,7 @@ header h1{
     font-size: 12vw;
     color: #ffffe1;
     line-height: 0.9;
-    letter-spacing:-1.1vw;
+    letter-spacing:-1.15vw;
     padding-right: 15%;
     filter: blur(1px);
     
@@ -124,14 +124,15 @@ nav a img{
 .dialog {
     display: none;
     background: #ffffe1;
-    border: solid 0.6vw #ffffe1;
-    border-radius: 15px;
+    border: solid 0.6vw  #ffffe1;
+    border-width: 0.6vw;
+    border-radius: 0.5em;
     transition: right 0.3s ease-in-out;
-    max-width: 50vw;
     min-width: 40vw;
+   /* max-width: 50vw;*/
     z-index: 2;
     max-height: 80vh;
-    min-height: 30vh;
+    min-height: auto;
     margin: 10vh;
     overflow: auto;
     /*scrollbar-color: #B0C2F0 #ffffe1;
@@ -158,3 +159,4 @@ nav a img{
     margin-bottom: 0.5vw;
     margin-left: 0.6vw;
 }
+
